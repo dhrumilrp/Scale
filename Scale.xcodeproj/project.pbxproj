@@ -12,6 +12,8 @@
 		BF6EB5351CBD6B250014EADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6EB5331CBD6B250014EADC /* Main.storyboard */; };
 		BF6EB5371CBD6B250014EADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6EB5361CBD6B250014EADC /* Assets.xcassets */; };
 		BF6EB53A1CBD6B250014EADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6EB5381CBD6B250014EADC /* LaunchScreen.storyboard */; };
+		BF6EB5421CBD6B3E0014EADC /* PatientSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6EB5411CBD6B3E0014EADC /* PatientSlider.swift */; };
+		BF6EB5441CBD6B520014EADC /* PatientProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6EB5431CBD6B520014EADC /* PatientProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BF6EB5361CBD6B250014EADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF6EB5391CBD6B250014EADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF6EB53B1CBD6B250014EADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF6EB5411CBD6B3E0014EADC /* PatientSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientSlider.swift; sourceTree = "<group>"; };
+		BF6EB5431CBD6B520014EADC /* PatientProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				BF6EB5361CBD6B250014EADC /* Assets.xcassets */,
 				BF6EB5381CBD6B250014EADC /* LaunchScreen.storyboard */,
 				BF6EB53B1CBD6B250014EADC /* Info.plist */,
+				BF6EB5411CBD6B3E0014EADC /* PatientSlider.swift */,
+				BF6EB5431CBD6B520014EADC /* PatientProfile.swift */,
 			);
 			path = Scale;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF6EB5321CBD6B250014EADC /* ViewController.swift in Sources */,
+				BF6EB5441CBD6B520014EADC /* PatientProfile.swift in Sources */,
+				BF6EB5421CBD6B3E0014EADC /* PatientSlider.swift in Sources */,
 				BF6EB5301CBD6B250014EADC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
