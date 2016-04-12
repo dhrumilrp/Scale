@@ -14,7 +14,7 @@ class PatientSlider: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        //Set up vertical slider
         slider.transform = CGAffineTransformMakeRotation(CGFloat(-M_PI_2))
     }
     
@@ -24,6 +24,8 @@ class PatientSlider: UIViewController {
     }
     
     @IBAction func valueChanged(sender: UISlider) {
+        //TEST: this outputs the integer value upon 
+        //a value changing in the slider
         let currentValue = Int(sender.value)
         print(currentValue)
     }
