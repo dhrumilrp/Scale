@@ -14,6 +14,7 @@
 		BF6EB53A1CBD6B250014EADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6EB5381CBD6B250014EADC /* LaunchScreen.storyboard */; };
 		BF6EB5421CBD6B3E0014EADC /* PatientSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6EB5411CBD6B3E0014EADC /* PatientSlider.swift */; };
 		BF6EB5441CBD6B520014EADC /* PatientProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6EB5431CBD6B520014EADC /* PatientProfile.swift */; };
+		BF6EB5461CBD7DA10014EADC /* InformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6EB5451CBD7DA10014EADC /* InformationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BF6EB53B1CBD6B250014EADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF6EB5411CBD6B3E0014EADC /* PatientSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientSlider.swift; sourceTree = "<group>"; };
 		BF6EB5431CBD6B520014EADC /* PatientProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientProfile.swift; sourceTree = "<group>"; };
+		BF6EB5451CBD7DA10014EADC /* InformationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				BF6EB53B1CBD6B250014EADC /* Info.plist */,
 				BF6EB5411CBD6B3E0014EADC /* PatientSlider.swift */,
 				BF6EB5431CBD6B520014EADC /* PatientProfile.swift */,
+				BF6EB5451CBD7DA10014EADC /* InformationController.swift */,
 			);
 			path = Scale;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				BF6EB5441CBD6B520014EADC /* PatientProfile.swift in Sources */,
 				BF6EB5421CBD6B3E0014EADC /* PatientSlider.swift in Sources */,
 				BF6EB5301CBD6B250014EADC /* AppDelegate.swift in Sources */,
+				BF6EB5461CBD7DA10014EADC /* InformationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

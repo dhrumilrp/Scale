@@ -6,10 +6,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Information Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="InformationController" customModule="Scale" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -75,6 +75,11 @@
                             <constraint firstItem="I7p-Da-HPE" firstAttribute="top" secondItem="zBM-ta-HOf" secondAttribute="bottom" constant="50" id="vlH-Ok-n4r"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ageEntry" destination="zBM-ta-HOf" id="h3q-dX-yHE"/>
+                        <outlet property="genderEntry" destination="I7p-Da-HPE" id="MyO-za-GOB"/>
+                        <outlet property="nameEntry" destination="Rjs-w5-GRm" id="uR6-Pg-SSn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
