@@ -18,40 +18,62 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SCALE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8S-0Z-E9v">
-                                <rect key="frame" x="197" y="28" width="207" height="109"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SCALE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8S-0Z-E9v">
+                                <rect key="frame" x="120" y="30" width="360" height="54"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="I7p-Da-HPE">
-                                <rect key="frame" x="220" y="372" width="173" height="29"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="I7p-Da-HPE">
+                                <rect key="frame" x="60" y="369" width="480" height="29"/>
                                 <segments>
                                     <segment title="Male"/>
                                     <segment title="Female"/>
                                     <segment title="Other"/>
                                 </segments>
                             </segmentedControl>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rjs-w5-GRm">
-                                <rect key="frame" x="220" y="247" width="176" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Age" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zBM-ta-HOf">
+                                <rect key="frame" x="100" y="289" width="400" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Age" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zBM-ta-HOf">
-                                <rect key="frame" x="220" y="306" width="176" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UfK-yZ-2Tb">
-                                <rect key="frame" x="272" y="501" width="69" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UfK-yZ-2Tb">
+                                <rect key="frame" x="100" y="517" width="400" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="START"/>
                                 <connections>
                                     <segue destination="9w3-v9-PqE" kind="presentation" id="Wh1-dt-LkZ"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rjs-w5-GRm">
+                                <rect key="frame" x="60" y="209" width="480" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Rjs-w5-GRm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="2Ud-fp-4xi"/>
+                            <constraint firstItem="R8S-0Z-E9v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6yt-yD-tbj"/>
+                            <constraint firstItem="I7p-Da-HPE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="7Cx-K1-16o"/>
+                            <constraint firstItem="zBM-ta-HOf" firstAttribute="top" secondItem="Rjs-w5-GRm" secondAttribute="bottom" constant="50" id="9Rn-Aw-LKR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Rjs-w5-GRm" secondAttribute="trailing" constant="40" id="9WY-f7-1jt"/>
+                            <constraint firstItem="Rjs-w5-GRm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A6q-vo-OCV"/>
+                            <constraint firstItem="R8S-0Z-E9v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="Btz-iU-6Hc"/>
+                            <constraint firstItem="zBM-ta-HOf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="80" id="ETS-UO-xMh"/>
+                            <constraint firstItem="Rjs-w5-GRm" firstAttribute="top" secondItem="R8S-0Z-E9v" secondAttribute="bottom" constant="125" id="Fdm-aV-eck"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="R8S-0Z-E9v" secondAttribute="trailing" constant="100" id="JMG-ka-Zex"/>
+                            <constraint firstItem="UfK-yZ-2Tb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="80" id="RKb-1T-WzX"/>
+                            <constraint firstItem="I7p-Da-HPE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VsB-kU-ldb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zBM-ta-HOf" secondAttribute="trailing" constant="80" id="Z5T-sC-ezF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="UfK-yZ-2Tb" secondAttribute="trailing" constant="80" id="a3z-Da-xdq"/>
+                            <constraint firstItem="zBM-ta-HOf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gLi-MJ-bIO"/>
+                            <constraint firstItem="UfK-yZ-2Tb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h4G-j6-9e0"/>
+                            <constraint firstItem="R8S-0Z-E9v" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="kYc-Jw-h7J"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="I7p-Da-HPE" secondAttribute="trailing" constant="40" id="mjl-wX-P59"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="UfK-yZ-2Tb" secondAttribute="bottom" constant="50" id="v2q-6h-hOE"/>
+                            <constraint firstItem="I7p-Da-HPE" firstAttribute="top" secondItem="zBM-ta-HOf" secondAttribute="bottom" constant="50" id="vlH-Ok-n4r"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -76,8 +98,8 @@
                                     <action selector="valueChanged:" destination="9w3-v9-PqE" eventType="valueChanged" id="LQ2-FN-QrL"/>
                                 </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time Remaining: 1:00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqu-5n-d2q">
-                                <rect key="frame" x="234" y="28" width="132" height="27"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Remaining: 1:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqu-5n-d2q">
+                                <rect key="frame" x="60" y="30" width="480" height="20"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -85,7 +107,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="1t2-4f-OIK" firstAttribute="centerX" secondItem="zFz-xI-jSc" secondAttribute="centerX" id="35F-Wh-vxC"/>
+                            <constraint firstItem="xqu-5n-d2q" firstAttribute="top" secondItem="UbI-OI-j8K" secondAttribute="bottom" constant="10" id="QgJ-fG-2Ew"/>
                             <constraint firstItem="1t2-4f-OIK" firstAttribute="leading" secondItem="zFz-xI-jSc" secondAttribute="leadingMargin" constant="20" id="Vd5-YX-Kop"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xqu-5n-d2q" secondAttribute="trailing" constant="40" id="XEb-s1-v7x"/>
+                            <constraint firstItem="xqu-5n-d2q" firstAttribute="centerX" secondItem="zFz-xI-jSc" secondAttribute="centerX" id="dWx-7I-pKd"/>
+                            <constraint firstItem="xqu-5n-d2q" firstAttribute="leading" secondItem="zFz-xI-jSc" secondAttribute="leadingMargin" constant="40" id="diN-mk-xQ3"/>
                             <constraint firstItem="1t2-4f-OIK" firstAttribute="top" secondItem="UbI-OI-j8K" secondAttribute="bottom" constant="80" id="hGR-Sy-uPl"/>
                             <constraint firstAttribute="trailingMargin" secondItem="1t2-4f-OIK" secondAttribute="trailing" constant="20" id="sBa-bv-luu"/>
                             <constraint firstItem="SWK-G9-2sL" firstAttribute="top" secondItem="1t2-4f-OIK" secondAttribute="bottom" constant="50" id="ux8-gB-Iam"/>
